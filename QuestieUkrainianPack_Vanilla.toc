@@ -1,0 +1,7 @@
+## Interface: 11404
+## Title: Questie translation - Ukrainian
+## Author: Jakanis
+## Version: 0.1
+
+translations.lua
+Translations\Translations.xml

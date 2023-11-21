@@ -1,0 +1,6 @@
+# This file is needed only for CurseForge to accept the addon.
+# The correct TOC files are "QuestieUkrainianPack_Vanilla.toc" and "QuestieUkrainianPack_Wrath.toc".
+# Game client automatically loads its own version.
+
+## Interface: 00000
+## Title: Questie translation - Ukrainian |cFFFF0000(game client not supported)|r
