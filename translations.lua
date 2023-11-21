@@ -19,12 +19,8 @@ L.npcNameLookup = {
 [196] = "Іґан Гарбар"
 }
 
-L.objectLookup = {
+L.objectLookup = {}
 
-}
-
-L.translations = {
-["Enable Debug"] = "Увікнути дебаг"
-}
+L.translations = {}
 
 QUESTIE_LOCALES_OVERRIDE = L

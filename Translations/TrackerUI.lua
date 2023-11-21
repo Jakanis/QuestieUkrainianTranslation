@@ -15,18 +15,7 @@ local trackerUILocales = {
     -- "Toggle My Journey" is in MinimapIcon.lua
     ["Drag while Unlocked"] = "Перетягування у розблокованому стані",
     ["Drag while Locked"] = "Перетягування у заблокованому стані",
-    ["Questie Tracker Integrations"] = {
-        ["ptBR"] = false,
-        ["ruRU"] = "Интеграции трекера",
-        ["deDE"] = false,
-        ["koKR"] = false,
-        ["esMX"] = false,
-        ["enUS"] = true,
-        ["zhCN"] = false,
-        ["zhTW"] = "整合插件",
-        ["esES"] = false,
-        ["frFR"] = false,
-    },
+    ["Questie Tracker Integrations"] = "Інтеграції трекера",
     -- VoiceOver Integration
     ["VoiceOver"] = true,
     ["Hold shift to see PlayButtons"] = true,  -- TODO: "Затисніть Shift, щоб побачити PlayButtons" ?
