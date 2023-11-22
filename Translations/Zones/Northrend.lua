@@ -241,7 +241,7 @@ local northrendLocales = {
     ["Sparktouched Haven"] = true,
     ["The Path of the Lifewarden"] = true,
     ["Heb'Valok"] = true,
-    ["Plaguelands: The Scarlet Enclave"] = true,
+    ["Plaguelands: The Scarlet Enclave"] = "Зачумлені землі: анклав Багряного Походу",
     ["Kolramas"] = true,
     ["Mistwhisper Refuge"] = true,
     ["The Glimmering Pillar"] = true,
@@ -636,6 +636,6 @@ local northrendLocales = {
     ["Uncharted Territory"] = true,
 }
 
---for k, v in pairs(northrendLocales) do
---    QUESTIE_LOCALES_OVERRIDE.translations[k] = v
---end
+for k, v in pairs(northrendLocales) do
+    QUESTIE_LOCALES_OVERRIDE.translations[k] = v
+end

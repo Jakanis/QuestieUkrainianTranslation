@@ -348,7 +348,7 @@ local outlandLocales = {
     ["Tuluman's Landing"] = true,
     ["Emberglade"] = true,
     ["Forge Base: Oblivion"] = true,
-    ["Isle of Quel'Danas"] = true,
+    ["Isle of Quel'Danas"] = "Острів Квел'Данас",
     ["Veil Harr'ik"] = true,
     ["Manaforge Ara"] = true,
     ["The Abyssal Shelf"] = true,
@@ -483,6 +483,6 @@ local outlandLocales = {
     ["Kessel's Crossing"] = true,
 }
 
---for k, v in pairs(outlandLocales) do
---    QUESTIE_LOCALES_OVERRIDE.translations[k] = v
---end
+for k, v in pairs(outlandLocales) do
+    QUESTIE_LOCALES_OVERRIDE.translations[k] = v
+end

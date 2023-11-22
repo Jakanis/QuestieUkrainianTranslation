@@ -1,7 +1,7 @@
 local minimapIconLocales = {
     ["Toggle Menu"] = "Відкрити меню",
     ["Toggle Questie"] = "Увімкнути/вимкнути Questie",
-    ["Toggle My Journey"] = "Показати/приковати 'Подорож'",
+    ["Toggle My Journey"] = "Показати/приховати 'Подорож'",
     ["Hide Minimap Button"] = "Приховати кнопку на мінімапі",
     ["Reload Questie"] = "Перезавантажити Questie",
     ["Available Quest"] = "Доступні завдання",
