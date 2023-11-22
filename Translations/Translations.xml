@@ -1,4 +1,8 @@
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <Script file="Journey\MyJourney.lua"/>
+    <Script file="Journey\QuestsByZone.lua"/>
+    <Script file="Journey\Search.lua"/>
+
     <Script file="MinimapIcon\MinimapIcon.lua"/>
     <Script file="MinimapIcon\Townsfolk.lua"/>
 
