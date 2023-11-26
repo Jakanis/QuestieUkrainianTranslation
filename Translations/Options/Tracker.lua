@@ -84,7 +84,6 @@ local trackerOptionsLocales = {
     ["Lock Tracker"] = "Закріпити трекер",
     ["When this is checked, the Questie Tracker is locked and you need to hold CTRL when you want to move it."] = "Заблокувати переміщення трекера. Коли опція увімкнена, ви можете переміщувати трекер, затиснувши Ctrl.",
     ---------------------------------------------------------
-    ["Disable Tracker"] = "Вимкнути трекер",
     ["Disabling the Tracker will replace the Questie Tracker with the default Blizzard Quest Tracker.\n\nNOTE: This setting is saved Per Character and will reload the UI."] =
         "Вимкнути трекер Questie і замінити його стандартним трекером Blizzard.\n\nПРИМІТКА: Ця опція активується окремо для кожного персонажа і вимагає перезавантаження інтерфейсу.",
     ---------------------------------------------------------
@@ -95,14 +94,6 @@ local trackerOptionsLocales = {
     ["Reset Tracker"] = "Скинути трекер",
     ["If the Questie Tracker is stuck offscreen or lost, you can reset it's location to the center of the screen with this button."] =
         "Якщо трекер застряг поза екраном або зник ви можете скинути налаштування положення і перемістити його в центр екрану.",
-    ---------------------------------------------------------
-    ["Save Tracker (Character)"] = "Зберегти для персонажа",
-    ["The Questie Trackers Location and Set Point is currently being saved Per Character. This allows you to cusomize each character's Tracker location.\n\nNOTE: Upon enabling Per Character, the Questie Tracker will be reset to the center of your screen. Move the Tracker to your desired location and set the size. When you are ready, type '/reload' to finalize your settings."] =
-        "Налаштування положення та розміру трекера Questie зберігаються окремо для кожного персонажа.\n\nПРИМІТКА: При виборі цієї опції положення трекера Questie буде скинуто до центру екрану. Перемістіть трекер в потрібне місце, налаштуйте його розмір, після чого перезавантажте інтерфейс командою '/reload' щоб зберегти налаштування.",
-    ---------------------------------------------------------
-    ["Save Tracker (Global)"] = "Зберегти глобально",
-    ["The Questie Trackers Location and Set Point is currently being saved Globally. This allows you to have one setting for all characters.\n\nNOTE: Upon enabling Global, the Questie Tracker will be reset to the center of your screen. Move the Tracker to your desired location and set the size. When you are ready, type '/reload' to finalize your settings."] =
-        "Налаштування положення та розміру трекера Questie зберігаються глобально для всіх персонажів.\n\nПРИМІТКА: При виборі цієї опції положення трекера Questie буде скинуто до центру екрану. Перемістіть трекер в потрібне місце, налаштуйте його розмір, після чого перезавантажте інтерфейс командою '/reload' щоб зберегти налаштування.",
     ---------------------------------------------------------
     ["Objective Color"] = "Колір цілей",
     ["Change the color of Objectives in the Questie Tracker by how complete they are.\n\nNOTE: The Minimalistic option will not display the \"Blizzard Completion Text\" and just label the Quest as either \"Quest Complete!\" or \"Quest Failed!\"."] =
@@ -209,6 +200,54 @@ local trackerOptionsLocales = {
     ["Tracker Height Ratio"] = "Співвідношення висоти трекера",
     ["The height of the Questie Tracker based on percentage of usable screen height. A setting of 100 percent would make the Tracker fill the players entire screen height.\n\nNOTE: This setting only applies while in Sizer Mode: Auto"] =
         "Задання висоти трекера Questie у відсотках від висоти екрану. Значення 100 призведе до того, що трекер заповнить всю висоту екрану.\n\nПРИМІТКА: Цей параметр працює лише при автоматичній зміні розміру трекера.",
+    ["Font Options"] = {
+        ["ptBR"] = false,
+        ["ruRU"] = false,
+        ["deDE"] = false,
+        ["koKR"] = false,
+        ["esMX"] = false,
+        ["enUS"] = true,
+        ["zhCN"] = false,
+        ["zhTW"] = false,
+        ["esES"] = false,
+        ["frFR"] = false,
+    },
+    ["Quest Options"] = {
+        ["ptBR"] = false,
+        ["ruRU"] = false,
+        ["deDE"] = false,
+        ["koKR"] = false,
+        ["esMX"] = false,
+        ["enUS"] = true,
+        ["zhCN"] = false,
+        ["zhTW"] = false,
+        ["esES"] = false,
+        ["frFR"] = false,
+    },
+    ["Quest and Achievement Options"] = {
+        ["ptBR"] = false,
+        ["ruRU"] = false,
+        ["deDE"] = false,
+        ["koKR"] = false,
+        ["esMX"] = false,
+        ["enUS"] = true,
+        ["zhCN"] = false,
+        ["zhTW"] = false,
+        ["esES"] = false,
+        ["frFR"] = false,
+    },
+    ["Tracker Window Options"] = {
+        ["ptBR"] = false,
+        ["ruRU"] = false,
+        ["deDE"] = false,
+        ["koKR"] = false,
+        ["esMX"] = false,
+        ["enUS"] = true,
+        ["zhCN"] = false,
+        ["zhTW"] = false,
+        ["esES"] = false,
+        ["frFR"] = false,
+    },
 }
 
 for k, v in pairs(trackerOptionsLocales) do
