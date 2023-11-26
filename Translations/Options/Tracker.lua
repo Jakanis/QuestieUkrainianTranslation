@@ -19,7 +19,7 @@ local trackerOptionsLocales = {
     ["Hide Completed Quest Objectives"] = "Приховати виконані цілі завдань",
     ["When this is checked, completed Quest Objectives will automatically be removed from the Questie Tracker."] = "Автоматично приховувати виконані цілі завдань з трекера Questie.",
     ---------------------------------------------------------
-    ["Hide Blizzard Completion Text"] = "Приховати текст виконання від Blizzard",  -- TODO: check
+    ["Hide Blizzard Completion Text"] = "Приховати текст виконання від Blizzard",
     ["When this is checked, Blizzard Completion Text will be hidden for completed Quests and instead show the old Questie tags: \"Quest Complete!\" or \"Quest Failed!\""] =
         "Приховувати стандартний текст Blizzard про виконання завдання і натомість відображати \"Завдання виконано!\" або \"Завдання провалено!\"",
     ---------------------------------------------------------
@@ -78,7 +78,7 @@ local trackerOptionsLocales = {
     ["When this is checked, the Questie Tracker will list Achievements first then Quests."] = "Відображати досягнення в трекері над завданнями.",
     ---------------------------------------------------------
     -- VoiceOver Tracker Integration
-    ["Sticky VoiceOver Frame"] = true,  -- TODO: check later
+    ["Sticky VoiceOver Frame"] = true,  -- TODO
     ["When this is checked, the VoiceOver talking head / sound queue frame will be placed on the left or right side of the Questie Tracker depending on where the Tracker is placed on your screen."] = true,
     ---------------------------------------------------------
     ["Lock Tracker"] = "Закріпити трекер",

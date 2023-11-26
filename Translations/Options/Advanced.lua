@@ -5,12 +5,12 @@ local advancedOptionsLocales = {
     ["Icon Limit"] = "Ліміт значків",
     ["Enable the limit of icons drawn per type."] = "Увімкнути обмеження на кількість значків для кожного типу.",
     ["Limits the amount of icons drawn per type. ( Default: %s )"] = "Обмеження кількості значків для кожного типу. ( За замовчуванням: %s )",
-    ["Enable bug workarounds"] = "Виправлення помилок",  -- TODO: check
+    ["Enable bug workarounds"] = "Виправлення помилок",
     ["When enabled, Questie will hotfix vanilla UI bugs."] = "Якщо увімкнено, Questie виправлятиме помилки класичного інтерфейсу.",
     ["Developer Options"] = "Параметри розробника",
     ["Show Quest IDs"] = "Показувати ID завдань",
-    ["When this is checked, the ID of quests will show in the tooltips and the tracker."] = "Коли увімкнено, ID завданнь відображатиметься у підказках і на трекері.",  -- TODO: check
-    ["Enable Debug"] = "Режим відлагодження",  -- TODO: check
+    ["When this is checked, the ID of quests will show in the tooltips and the tracker."] = "Коли увімкнено, ID завданнь відображатиметься у підказках і на трекері.",
+    ["Enable Debug"] = "Режим відлагодження",
     ["Enable or disable debug functionality."] = "Увімкнути або вимкнути функціонал відлагодження.",
     ["Debug level to print"] = "Рівень логу відлагодження",
     ["Hitting this button will reset all of the Questie configuration settings back to their default values. (Excluding Localization)"] =
@@ -26,7 +26,7 @@ local advancedOptionsLocales = {
     ["Automatic"] = "Автоматично",
     ["The database needs to be updated to change language. Press reload to apply the new language"] = "Для зміни мови необхідно оновити БД. Натисніть 'Перезавантажити', щоб застосувати нову мову",
     ["Questie is under active development for World of Warcraft: Classic. Please check GitHub for the latest alpha builds or to report issues. Or join us on our discord! (( https://github.com/Questie/Questie/ ))"] =
-        "Questie знаходиться в активній розробці для World of Warcraft: Classic. Будь ласка, перевірте GitHub, щоб отримати останні альфа-збірки або повідомити про проблеми. Або приєднуйтесь до нас у Discord! (( https://github.com/Questie/Questie/ ))",
+        "Questie знаходиться в активній розробці для World of Warcraft: Classic. Будь ласка, перевірте GitHub, щоб отримати останні альфа-збірки чи повідомити про проблеми. Або приєднуйтесь до нас у Discord! (( https://github.com/Questie/Questie/ ))",
 }
 
 for k, v in pairs(advancedOptionsLocales) do

@@ -13,11 +13,11 @@ local generalOptionsLocales = {
     ["Show/hide all icons from the main map."] = "Показати/приховати всі значки на мапі",
     ["Enable Minimap Icons"] = "Значки на мінімапі",
     ["Show/hide all icons from the minimap."] = "Показати/приховати всі значки на мінімапі",
-    ["Hide unexplored area Icons"] = "Приховати значки на недослідженій території", -- TODO: mb shorter
+    ["Hide unexplored area Icons"] = "Приховати на недослідженій території",
     ["Hide icons in unexplored areas."] = "Приховати значки на недослідженій території",
-    ["Hide icons of untracked quests"] = "Приховати значки завдань, що не відстежуються", -- TODO: mb shorter
+    ["Hide icons of untracked quests"] = "Приховати завдання, що не відстежуються",
     ["Hide icons for quests that are not tracked."] = "Приховати значки завдань, що не відстежуються",
-    ["Show custom quest frame icons"] = "Показувати кастомні значки у вікні завдання",
+    ["Show custom quest frame icons"] = "Показувати значки у вікні завдання",
     ["Use custom Questie icons for NPC dialogs, reflecting the status and type of each quest."] =
         "Показувати кастомні значки Questie, що відображають статус та тип завдання у діалозі з NPC.",
     ["Enable Available Quest Icons"] = "Значки доступних завдань",

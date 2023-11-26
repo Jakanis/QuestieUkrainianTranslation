@@ -1,14 +1,14 @@
 local trackerUILocales = {
-    ["Questie Tracker"] = "Трекер Questie", -- TODO: check
+    ["Questie Tracker"] = "Трекер Questie",
     ---------------------------------------------------------
     -- Sizer
-    ["Sizer Mode"] = "Режим сайзера", -- TODO: check
-    ["Resize Tracker (Manual)"] = "Змінити розмір трекера (Вручну)", -- TODO: check
-    ["Reset Sizer (Auto)"] = "Скинути сайзер (Авто)", -- TODO: check
-    ["Resize while Locked"] = "Зміна розміру в заблокованому стані", -- TODO: check
-    ["Reset while Locked"] = "Скидання в заблокованому стані", -- TODO: check
+    ["Sizer Mode"] = "Режим зміни розміру",
+    ["Resize Tracker (Manual)"] = "Змінити розмір трекера (Вручну)",
+    ["Reset Sizer (Auto)"] = "Скинути зміну розміру (Авто)",
+    ["Resize while Locked"] = "Зміна розміру в заблокованому стані",
+    ["Reset while Locked"] = "Скидання в заблокованому стані",
     ["NOTE"] = "ПРИМІТКА",
-    ["The Tracker Height Ratio\nis ignored while in Manual mode"] = "Співвідношення висоти трекера\nігнорується в ручному режимі", -- TODO: check
+    ["The Tracker Height Ratio\nis ignored while in Manual mode"] = "Співвідношення висоти трекера\nігнорується в ручному режимі",
     ---------------------------------------------------------
     -- Questie Icon (Active Quest Header)
     ["Toggle Options"] = "Відкрити/закрити налаштування",
@@ -18,7 +18,7 @@ local trackerUILocales = {
     ["Questie Tracker Integrations"] = "Інтеграції трекера",
     -- VoiceOver Integration
     ["VoiceOver"] = true,
-    ["Hold shift to see PlayButtons"] = true,  -- TODO: "Затисніть Shift, щоб побачити PlayButtons" ?
+    ["Hold shift to see PlayButtons"] = true,  -- TODO
     -- TomTom Integration
     ["TomTom"] = true,
     ["Ctrl + Left Click or Right Click a Quest Title"] = "Ctrl + ЛКМ або ПКМ на назві завдання",
@@ -34,7 +34,7 @@ local trackerUILocales = {
     ["Show on Map"] = "Показати на мапі",
     ["Show in Quest Log"] = "Показати в журналі завдань",
     ["Show in Achievements Log"] = "Показати в журналі досягнень",
-    ["Link Quest to chat"] = "Поділитися посиланням на завдання в чаті", -- TODO: check
+    ["Link Quest to chat"] = "Поділитися посиланням в чаті",
     ["Link Achievement to chat"] = "Поділитися посиланням на досягнення в чаті",
     ["Untrack Quest"] = "Не відстежувати завдання",
     ["Untrack Achievement"] = "Не відстежувати досягнення",

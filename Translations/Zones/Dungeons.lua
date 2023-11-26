@@ -43,7 +43,7 @@ local dungeonLocales = {
     ["Utgarde Pinnacle"] = "Вершина Утґард",
     ["Gundrak"] = "Ґундрак",
     ["The Nexus"] = "Нексус",
-    ["The Frozen Halls"] = false, -- TODO: translate
+    ["The Frozen Halls"] = "Зледенілі зали"
 }
 
 for k, v in pairs(dungeonLocales) do
