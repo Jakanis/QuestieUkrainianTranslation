@@ -27,6 +27,9 @@ local advancedOptionsLocales = {
     ["The database needs to be updated to change language. Press reload to apply the new language"] = "Для зміни мови необхідно оновити БД. Натисніть 'Перезавантажити', щоб застосувати нову мову",
     ["Questie is under active development for World of Warcraft: Classic. Please check GitHub for the latest alpha builds or to report issues. Or join us on our discord! (( https://github.com/Questie/Questie/ ))"] =
         "Questie знаходиться в активній розробці для World of Warcraft: Classic. Будь ласка, перевірте GitHub, щоб отримати останні альфа-збірки чи повідомити про проблеми. Або приєднуйтесь до нас у Discord! (( https://github.com/Questie/Questie/ ))",
+    ["Skip Validation"] = "Пропускати валідацію",
+    ["Skip database validation upon recompile. Validation is only present with debug enabled in the first place."] = "Пропускати валідацію БД при перекомпіляції. Валідація присутня лише при увімкненому відлагодженні.",
+    ["Quel'Danas Settings"] = "Налаштування Квел'Данаса",
 }
 
 for k, v in pairs(advancedOptionsLocales) do

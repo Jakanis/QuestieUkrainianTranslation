@@ -22,7 +22,9 @@ local townsfolkLocales = {
     ["Potions"] = "Зілля",
     ["Trade Goods"] = "Товари для ремесел",
     ["Vendor"] = "Продавець",
-    ["Weapon Master"] = "Знавець зброї"}
+    ["Weapon Master"] = "Знавець зброї",
+    ["Townsfolk"] = "Жителі",
+}
 
 for k, v in pairs(townsfolkLocales) do
     QUESTIE_LOCALES_OVERRIDE.translations[k] = v
