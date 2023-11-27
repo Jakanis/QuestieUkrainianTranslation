@@ -5,3 +5,7 @@
 
 translations.lua
 Translations\Translations.xml
+lookups\Wotlk\lookupItems.lua
+lookups\Wotlk\lookupNpcs.lua
+lookups\Wotlk\lookupObjects.lua
+lookups\Wotlk\lookupQuests.lua

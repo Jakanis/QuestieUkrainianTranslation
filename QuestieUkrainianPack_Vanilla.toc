@@ -5,3 +5,7 @@
 
 translations.lua
 Translations\Translations.xml
+lookups\Classic\lookupItems.lua
+lookups\Classic\lookupNpcs.lua
+lookups\Classic\lookupObjects.lua
+lookups\Classic\lookupQuests.lua
