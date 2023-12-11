@@ -33,10 +33,10 @@ local genericsLocales = {
     ["Reputation"] = "Репутація",
     ["Group"] = "Група", -- TODO: check
     ["Party"] = "Група", -- TODO: check
-    ["PvP"] = "PvP",
     ["Raid"] = "Рейд",
     ["Vendors"] = "Продавці",
     ["Achievements"] = "Досягнення",
+    ["Dismiss"] = "Закрити",
 }
 
 for k, v in pairs(genericsLocales) do

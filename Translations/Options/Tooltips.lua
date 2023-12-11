@@ -1,9 +1,8 @@
 local tooltipOptionsLocales = {
     ["Tooltips"] = "Підказки",
-    ["Tooltip options"] = "Опції підказок",
+    ["Tooltip Options"] = "Налаштування підказок",
     ["Enable Tooltips"] = "Увімкнути підзказки",
     ["When this is enabled, quest info will be added to relevant mob/item tooltips."] = "Показувати інформацію про завдання у підказках до предметів чи NPC.",
-    ["Show Quest Level in Tooltips"] = "Показувати рівень завдань в підказках",
     ["When this is checked, the level of quests will show in the tooltips."] = "Показувати рівень завдання у підказках.",
     ["Only show party members"] = "Лише від членів групи",
     ["When this is enabled, shared quest info will only show players in your party."] = "Показувати інформацію про спільні завдання лише від від членів групи.",

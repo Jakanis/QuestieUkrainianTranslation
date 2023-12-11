@@ -47,13 +47,12 @@ local generalOptionsLocales = {
     ["Phase 4.2 - Sun's Reach"] = "Фаза 4.2 - Сонячний Край",
     ["Phase 5"] = "Фаза 5",
     ["Interface Options"] = "Налаштування інтерфейсу",
-    ["Tooltip Options"] = "Налаштування підказок",
     ["Sound Options"] = "Налаштування звуків",
     ["By default, Questie only shows quests that are relevant for your level. You can change this behavior below."] = "За замовчуванням Questie показує лише квести, що відповідають вашому рівню. Ви можете змінити цю поведінку нижче.",
-    ["Display announcements locally when outside of a group"] = "Показувати сповіщення поза групою",
-    ["Questie will print your progress messages to chat when not in a group. Other players will NOT be able to see this."] = "Questie відображатиме в чаті сповіщення про прогрес ваших завдань коли ви не в групі. Інші гравці НЕ бачитимуть ці повідомлення.",
     ["Show quest level in tooltips"] = "Показувати рівень завдань в підказках",
     ["Enable World Tooltips"] = "Показувати підказки",
+    ["Welcome to Season of Discovery! Questie is being continuously updated with the new quests from this season, but it will take time. Be sure to update frequently to minimize errors."] = "Вітаємо вас у Сезоні Відкриттів! Questie постійно оновлюється даними нових завдань цього сезону, але на це потрібен час. Переконайтеся, що ви досить часто оновлюєтесь, щоб зменшити кількість помилок.",
+    ["While playing Season of Discovery, Questie will notify you if it encounters a quest it doesn't yet know about. Please share this info with us on Discord or GitHub!"] = "Під час гри в Сезоні Відкриттів, Questie сповіщатиме вас, якщо натрапить на завдання, про яке ще не знає. Будь ласка, поділіться цією інформацією з нами в Discord або на GitHub!",
 }
 
 for k, v in pairs(generalOptionsLocales) do

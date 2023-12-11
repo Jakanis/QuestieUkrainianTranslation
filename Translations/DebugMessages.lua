@@ -38,6 +38,17 @@ local debugMessagesLocales = {
     ["Missing objective data for quest "] = "Відсутня інформація про ціль завдання ",
     ["|cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install."] =
         "|cffff0000Please note:|r Один з наступних релізів Questie скине ваші налаштування. Ми радимо вам зробити резервну копію збережених налаштувань Questie, створивши копію теки WTF в теці інсталяції WoW.",
+    -- Debug Offers
+    ["Questie Debug Info"] = "Інформація для відлагодження",
+    ["Please share this info with us on"] = "Будь ласка, поділіться цією інформацією з нами",
+    ["You can copy the data above"] = "Ви можете скопіювати вищевказані дані",
+    ["Would you like to help us fix it?"] = "Бажаєте допомогти нам виправити це?",
+    ["More Info"] = "Докладніше",
+    ["An item you just encountered has data missing from the Questie database."] = "Предмет, який вам щойно трапився, відсутній в базі даних Questie.",
+    ["A quest you just encountered is missing from the Questie database."] = "Завдання, яке вам щойно трапилося, відсутнє в базі даних Questie.",
+    ["A quest in your quest log is missing from the Questie database and can't be tracked."] = "Одне з завдань у вашому журналі відсутнє в базі даних Questie і не може бути відстежене.",
+    ["The NPC you just targeted is missing from the Questie database."] = "NPC, який вам щойно трапився, відсутній в базі даних Questie.",
+    -- End Debug Offers
 }
 
 for k, v in pairs(debugMessagesLocales) do

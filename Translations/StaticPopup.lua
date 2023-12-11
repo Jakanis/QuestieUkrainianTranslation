@@ -10,7 +10,7 @@ local staticPopup = {
     ["WoW \"retail\" and private servers"] = "\"рітейл\" та приватні сервери",
     ["are not supported."] = "не підтримуються.",
     ["Questie only supports"] = "Questie підтримує лише",
-    ["WoW Classic (Era/Wrath/SoM)!"] = "WoW Classic (Era/Wrath/SoM)!",
+    ["WoW Classic (Era/Wrath)!"] = "WoW Classic (Era/Wrath)!",
     -------------------------------------------------------------------------------------------
     -- Add new Static Popup translations below. Please reference where it's located.
 }

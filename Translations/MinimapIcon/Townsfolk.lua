@@ -10,7 +10,7 @@ local townsfolkLocales = {
     ["Food"] = "Їжа",
     ["Innkeeper"] = "Корчмар",
     ["Mailbox"] = "Поштова скринька",
-    ["Profession Trainer"] = "Тренер професії",
+    ["Profession Trainer"] = "Вчитель професії",
     ["Reagents"] = "Реагенти",
     ["Repair"] = "Ремонт",
     ["Spirit Healer"] = "Зцілювач духу",
@@ -18,12 +18,12 @@ local townsfolkLocales = {
     ["Meeting Stone"] = "Камінь зустрічі",
     ["Meeting Stones"] = "Камені зустрічі",
     ["Pet Food"] = "Їжа для улюбленців",
-    ["Portal Trainer"] = "Тренер порталів",
+    ["Portal Trainer"] = "Вчитель порталів",
     ["Potions"] = "Зілля",
     ["Trade Goods"] = "Товари для ремесел",
     ["Vendor"] = "Продавець",
     ["Weapon Master"] = "Знавець зброї",
-    ["Townsfolk"] = "Жителі",
+    ["Townsfolk"] = "Містяни",
 }
 
 for k, v in pairs(townsfolkLocales) do

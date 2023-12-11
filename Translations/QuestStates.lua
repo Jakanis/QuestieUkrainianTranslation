@@ -6,6 +6,7 @@ local questStateLocales = {
     ["Event"] = "Подія",
     ["Repeatable"] = "Повторюване",
     ["PvP"] = "PvP",
+    ["Rune"] = "Руна",
 }
 
 for k, v in pairs(questStateLocales) do

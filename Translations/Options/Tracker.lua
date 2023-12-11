@@ -32,13 +32,12 @@ local trackerOptionsLocales = {
     ["When this is checked, the default Blizzard Timer Frame for Quests will be shown instead of being embedded inside the Questie Tracker."] =
         "Відображати стандартний фрейм таймера Blizzard для завдань замість вбудованого в трекер таймера.",
     ---------------------------------------------------------
-    ["Enable Active Quests Header"] = "Заголовок з активними завданнями",
-    ["When this is checked, the Active Quests Header will become visible and the total number of Quests you have in your Quest Log will be shown.\n\nNOTE: When this is disabled, the Questie Icon will fade in while your mouse is over the Tracker."] =
-        "Відображати в заголовку кількість активних завдань у вашому журналі.\n\nПРИМІТКА: Коли ця опція вимкнена, при наведенні на трекер з'явиться значок Questie.",
+    ["Enable Tracker Header"] = "Увімкнути заголовок трекера",
+    ["When this is enabled the Tracker Header with the number of active quests and the Questie Icon will be permanently visible.\n\nWhen this is disabled the Questie Icon will fade in while your mouse is over the Tracker."] =
+        "Завжди відображати заголовок трекера з кількістю активних завдань у вашому журналі та значком Questie.\n\nПРИМІТКА: Коли ця опція вимкнена, при наведенні на трекер з'явиться значок Questie.",
     ---------------------------------------------------------
-    ["Auto Move Active Quests Header"] = "Автопереміщення заголовка",
-    ["When this is checked, the Active Quests Header will automatically move to the bottom of the Questie Tracker.\n\nNOTE: This setting only works while the 'Tracker Growth Direction' setting is set to 'Up & Right' or 'Up & Left'."] =
-        "Автоматично переміщати заголовок вниз трекера.\n\nПРИМІТКА: Ця опція доступна лише коли для опції 'Зміна розміру трекера' обюрано значення 'Вгору і вправо' чи 'Вгору і вліво'.",
+    ["Show Tracker Header At The Bottom"] = "Відображати заголовок внизу",
+    ["When this is enabled the Tracker Header and/or the Questie Icon will be moved to the bottom of the Questie Tracker and the sizer to the top."] = "Перемістити заголовок та/або значок Questie вниз трекера, а кут трекера - у верх.",
     ---------------------------------------------------------
     ["Sticky Durability Frame"] = "Фрейм міцності",
     ["When this is checked, the durability frame will be placed on the left or right side of the Questie Tracker depending on where the Tracker is placed on your screen."] =
@@ -69,9 +68,8 @@ local trackerOptionsLocales = {
     ["When this is checked, the Questie Tracker Sizer that appears in the bottom or top right hand corner will be hidden."] =
         "Приховати кут трекера (за допомогою якого можна змінювати розмір), котрий відображається в правому нижньому або верхньому куті.",
     ---------------------------------------------------------
-    ["Always Show Tracker"] = "Завжди показувати трекер",
-    ["When this is checked, the Questie Trackers 'Active Quests Header' will always be visible when nothing is being tracked versus being hidden completely.\n\nNOTE: If the 'Active Quests Header' is in a disabled state, enabling this option will toggle it on when nothing is being tracked then toggle back off when you track something."] =
-        "Завжди відображати заголовок трекера Questie, навіть якщо жодне завдання не відстежується.\n\nПРИМІТКА: Якщо опція 'Заголовок з активними завданнями' вимкнена, увімкнення цієї опції буде вмикати її, коли жодне завдання не відстежується, і вимикати, коли щось відстежується.",
+    ["Show Header For Empty Tracker"] = "Відображати при порожньому трекері",
+    ["When this is enabled the Tracker Header will be visible even when no quests are being tracked versus the Tracker being hidden completely."] = "Завжди відображати заголовок трекера, навіть якщо жодне завдання не відстежується.",
     ---------------------------------------------------------
     -- Wrath of the Lich King only
     ["List Achievements First"] = "Спочатку досягнення",
@@ -84,12 +82,9 @@ local trackerOptionsLocales = {
     ["Lock Tracker"] = "Закріпити трекер",
     ["When this is checked, the Questie Tracker is locked and you need to hold CTRL when you want to move it."] = "Заблокувати переміщення трекера. Коли опція увімкнена, ви можете переміщувати трекер, затиснувши Ctrl.",
     ---------------------------------------------------------
-    ["Disabling the Tracker will replace the Questie Tracker with the default Blizzard Quest Tracker.\n\nNOTE: This setting is saved Per Character and will reload the UI."] =
-        "Вимкнути трекер Questie і замінити його стандартним трекером Blizzard.\n\nПРИМІТКА: Ця опція активується окремо для кожного персонажа і вимагає перезавантаження інтерфейсу.",
-    ---------------------------------------------------------
     ["Enable Tracker"] = "Увімкнути трекер",
-    ["Enabling the Tracker will replace the default Blizzard Quest Tracker with the Questie Tracker.\n\nNOTE: This setting is saved Per Character and will reload the UI."] =
-        "Увімкнути трекер Questie і замінити ним стандартний трекер Blizzard.\n\nПРИМІТКА: Ця опція активується окремо для кожного персонажа і вимагає перезавантаження інтерфейсу.",
+    ["Enabling the Tracker will replace the default Blizzard Quest Tracker with the Questie Tracker.\n\nNOTE: Changing this setting will reload the UI."] =
+        "Увімкнути трекер Questie і замінити ним стандартний трекер Blizzard.\n\nПРИМІТКА: Зміна цієї опції вимагає перезавантаження інтерфейсу.",
     ---------------------------------------------------------
     ["Reset Tracker"] = "Скинути трекер",
     ["If the Questie Tracker is stuck offscreen or lost, you can reset it's location to the center of the screen with this button."] =
@@ -153,7 +148,7 @@ local trackerOptionsLocales = {
         "Поєднання клавіш для відміни стеження за завданням чи досягненням, якщо поле чату неактивне. Якщо поле чату активне - додає в нього посилання на завдання чи досягнення.",
     ---------------------------------------------------------
     ["Tracker Growth Direction"] = "Зміна розміру трекера",
-    ["This determines the direction in which the Questie Tracker grows when you add or remove Quests. For example, if you use the 'Up & Right' option then the ideal place for the Tracker should be in the lower left-hand corner of your screen. This allows the 'Sizer Mode: Auto' to push the Tracker Height and Width 'Up & Right' so the Tracker doesn't inadvertently cover up elements of your UI.\n\nNOTE: This will also move the Active Quests Header (if enabled) to the bottom of the Questie Tracker when using the options 'Up & Right' or the 'Up & Left' setting. You can override this behavior by disabling the 'Auto Move Active Quests Header' option to force the Active Quests Header to remain at the top of the Questie Tracker. The 'Auto Move Active Quests Header' option is disabled when the options 'Down & Right' or 'Down & Left' are used."] =
+    ["This determines the direction in which the Questie Tracker grows when you add or remove Quests. For example, if you use the 'Up & Right' option then the ideal place for the Tracker should be in the lower left-hand corner of your screen. This allows the 'Sizer Mode: Auto' to push the Tracker Height and Width 'Up & Right' so the Tracker doesn't inadvertently cover up elements of your UI."] =
         "Визначення напрямку, в якому трекер змінює свій розмір при додаванні чи видаленні завдань. Наприклад, якщо ви використовуєте опцію 'Вгору і вправо', то ідеальним місцем для трекера буде нижній лівий кут екрана. Це дозволить трекеру збільшувати висоту й ширину вгору і право, щоб не перекривати елементи інтерфейсу.\n\nПРИМІТКА: Це також перемістить заголовок (якщо ввімкнено) до вниз трекера при використанні опцій 'Вгору і вправо' або 'Вгору і вліво'. Ви можете змінити цю поведінку, вимкнувши опцію 'Автопереміщення заголовка', щоб залишити його вгорі. Опція 'Автопереміщення заголовка' недоступна, якщо обрано опцію 'Вниз і вправо' чи 'Вниз і вліво'.",
     ---------------------------------------------------------
     ["Up & Right"] = "Вгору і вправо",
@@ -204,6 +199,8 @@ local trackerOptionsLocales = {
     ["Quest Options"] = "Налаштування завдань",
     ["Quest and Achievement Options"] = "Налаштування завдань та досягнень",
     ["Tracker Window Options"] = "Налаштування вікна трекера",
+    ["Tracker Background"] = "Фон трекера",
+    ["Tracker Header"] = "Заголовок трекера",
 }
 
 for k, v in pairs(trackerOptionsLocales) do
