@@ -29,9 +29,15 @@ __УВАГА! Стандартний шрифт Questie не підтримує 
 Скріншоти:
 
 ![QuestieUA1](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/59ae8284-b66b-4b74-9523-1eb66928000d)
+
 ![QuestieUA2](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/25988434-9147-4006-a625-5b17309e3b1e)
+
 ![QuestieUA3](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/e7f14ef8-5ae1-451b-a67f-7c898fb5d525)
-![QuestieUA4](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/1f7c6a96-8529-4a1b-a34f-d09332e3d0f0)
+
+![QuestieUA8](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/4f139015-3b00-41ff-adb3-77d25b53f4fd)
+
 ![QuestieUA5](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/8ffd068b-cbc5-4f48-a7e1-1481859f1412)
+
 ![QuestieUA6](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/454ae0a5-4b2b-4b5e-883b-d241b4ebc0f1)
+
 ![QuestieUA7](https://github.com/Jakanis/QuestieUkrainianTranslation/assets/22942162/cc0103fb-3c31-40b8-a723-7c3e8c1b097e)
