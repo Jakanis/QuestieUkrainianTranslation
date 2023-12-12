@@ -8,7 +8,7 @@ Based on [ClassicUA](https://github.com/greenya/ClassicUA) project.
 
 Adds translation to Questie inerface and for data used in Questie tooltips, icons and tracker.
 
-__WARNING! Questie's default font doesn't fully support cyrillyc symbols. Use Nimrod MT (or Arial) in Questie Options -&gt; Tracker -&gt; Font Options.__
+### __WARNING! Questie's default font doesn't fully support cyrillyc symbols. Use Nimrod MT (or Arial) in Questie Options -&gt; Tracker -&gt; Font Options.__
 
 &nbsp;
 
@@ -18,7 +18,7 @@ __WARNING! Questie's default font doesn't fully support cyrillyc symbols. Use Ni
 
 Додає переклад для інтерфейсу Questis, а також для даних, що використовуються в підказках, значках та трекері.
 
-__УВАГА! Стандартний шрифт Questie не підтримує деякі літери українського алфавіту. Використовуйте Nimrod MT (або Arial) в Налаштуваннях Questie -&gt; Трекер -&gt; Налаштування шрифту.__
+### __УВАГА! Стандартний шрифт Questie не підтримує деякі літери українського алфавіту. Використовуйте Nimrod MT (або Arial) в Налаштуваннях Questie -&gt; Трекер -&gt; Налаштування шрифту.__
 
 &nbsp;
 
