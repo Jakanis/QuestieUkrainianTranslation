@@ -21,6 +21,7 @@ local kalimdorLocales = {
     ["Silithus"] = "Силітус",
     ["Stonetalon Mountains"] = "Каміннопазуристі гори",
     ["Darnassus"] = "Дарнас",
+    ["Auberdine"] = "Аубердін",
 }
 
 for k, v in pairs(kalimdorLocales) do

@@ -38,6 +38,8 @@ local debugMessagesLocales = {
     ["Missing objective data for quest "] = "Відсутня інформація про ціль завдання ",
     ["|cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install."] =
         "|cffff0000Please note:|r Один з наступних релізів Questie скине ваші налаштування. Ми радимо вам зробити резервну копію збережених налаштувань Questie, створивши копію теки WTF в теці інсталяції WoW.",
+    ["Prints whether you are eligibile to do a quest"] = "Вивести інформацію про те, чи можете ви виконати завдання",
+    ["Prints Questie and client version info"] = "Вивести інформацію про версію Questie та клієнта гри",
     -- Debug Offers
     ["Questie Debug Info"] = "Інформація для відлагодження",
     ["Please share this info with us on"] = "Будь ласка, поділіться цією інформацією з нами",

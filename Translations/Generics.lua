@@ -37,6 +37,7 @@ local genericsLocales = {
     ["Vendors"] = "Продавці",
     ["Achievements"] = "Досягнення",
     ["Dismiss"] = "Закрити",
+    ["Doable"] = "Доступність",
 }
 
 for k, v in pairs(genericsLocales) do

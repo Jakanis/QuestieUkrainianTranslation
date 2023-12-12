@@ -6,6 +6,7 @@ local minimapIconLocales = {
     ["Reload Questie"] = "Перезавантажити Questie",
     ["Available Quest"] = "Доступні завдання",
     ["Trivial Quest"] = "Прості завдання",
+    ["Questie will open after combat ends."] = "Вікно Questie з'явиться після завершення бою",
 }
 
 for k, v in pairs(minimapIconLocales) do

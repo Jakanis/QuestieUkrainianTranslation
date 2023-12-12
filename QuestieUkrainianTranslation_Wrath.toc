@@ -1,6 +1,6 @@
 ## Interface: 30403
 ## Title: Questie translation - Ukrainian
-## Notes: Ukrainian translation for Questie v9.1.0
+## Notes: Ukrainian translation for Questie v9.2.1
 ## Author: Jakanis
 ## Version: 0.4
 
