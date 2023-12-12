@@ -1,6 +1,3 @@
----@type l10n
-local l10n = QuestieLoader:ImportModule("l10n")
-
 local classicObjectiveLocales = {
     ["Summon Dagun the Ravenous using an Enchanted Sea Kelp"] = "Викличте Даґуна-Ненажеру за допомогою зачарованих морських водоростей", -- 735 736,
     ["Use a Fresh Carcass at the Flame of Uzel"] = "Покладіть свіжу тушу на полум'я Узеля", -- 1136
@@ -56,5 +53,5 @@ local classicObjectiveLocales = {
 }
 
 for k, v in pairs(classicObjectiveLocales) do
-    l10n.translations[k] = v
+    QUESTIE_LOCALES_OVERRIDE.translations[k] = v
 end
