@@ -1,8 +1,8 @@
 ## Interface: 11502
 ## Title: Questie translation - Ukrainian
-## Notes: Ukrainian translation for Questie v9.2.1
+## Notes: Ukrainian translation for Questie
 ## Author: Jakanis
-## Version: 0.5
+## Version: 0.6
 
 translations.lua
 Translations\Translations.xml
