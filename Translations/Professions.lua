@@ -14,6 +14,7 @@ local professionLocals = {
     ["Jewelcrafting"] = "Ювелірна справа",
     ["Riding"] = "Верхова їзда",
     ["Inscription"] = "Начертання",
+    ["Archaeology"] = "Археологія",
 }
 
 for k, v in pairs(professionLocals) do

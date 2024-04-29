@@ -2,7 +2,7 @@ local staticPopup = {
     -------------------------------------------------------------------------------------------
     -- QuestEventHandler - StaticPopup_Show hook - "DELETE_ITEM" Static Popup
     ["Quest Item %%s might be needed for the quest %%s. \n\nAre you sure you want to delete this?"] =
-        "Предмет %%s може знадобитись для завдання %%s. \n\nВи впевнені, що хочете видалити його?",
+        "%%s може знадобитись для завдання %%s. \n\nВи впевнені, що хочете видалити його?",
     -------------------------------------------------------------------------------------------
     -- GameVersionError - "QUESTIE_VERSION_ERROR" Static Popup
     ["You're trying to use Questie addon"] = "Ви намагаєтесь використовувати аддон Questie",
