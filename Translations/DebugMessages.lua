@@ -42,7 +42,7 @@ local debugMessagesLocales = {
     ["Prints Questie and client version info"] = "Вивести інформацію про версію Questie та клієнта гри",
     -- Debug Offers
     ["Questie Debug Info"] = "Інформація для відлагодження",
-    ["Please share this info with us on"] = "Будь ласка, поділіться цією інформацією з нами",
+    ["Please share this info with us on"] = "Будь ласка, поділіться цим з нами",
     ["You can copy the data above"] = "Ви можете скопіювати вищевказані дані",
     ["Would you like to help us fix it?"] = "Бажаєте допомогти нам виправити це?",
     ["More Info"] = "Докладніше",
