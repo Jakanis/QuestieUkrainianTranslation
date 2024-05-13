@@ -1,4 +1,4 @@
-## Interface: 11502
+## Interface: 40400
 ## Title: Questie translation - Ukrainian
 ## Notes: Ukrainian translation for Questie
 ## Author: Jakanis
@@ -6,7 +6,7 @@
 
 translations.lua
 Translations\Translations.xml
-lookups\Classic\lookupItems.lua
-lookups\Classic\lookupNpcs.lua
-lookups\Classic\lookupObjects.lua
-lookups\Classic\lookupQuests.lua
+lookups\Wotlk\lookupItems.lua
+lookups\Wotlk\lookupNpcs.lua
+lookups\Wotlk\lookupObjects.lua
+lookups\Wotlk\lookupQuests.lua
