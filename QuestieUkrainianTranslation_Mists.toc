@@ -1,4 +1,4 @@
-## Interface: 40402
+## Interface: 50500
 ## Title: Questie translation - Ukrainian
 ## Notes: Ukrainian translation for Questie
 ## Author: Jakanis
