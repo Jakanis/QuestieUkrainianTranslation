@@ -1,4 +1,4 @@
-## Interface: 20505
+## Interface: 11508
 ## Title: Questie translation - Ukrainian
 ## Notes: Ukrainian translation for Questie
 ## Author: Jakanis
