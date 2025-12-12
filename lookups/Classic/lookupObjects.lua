@@ -1,4 +1,4 @@
-QUESTIE_LOCALES_OVERRIDE.itemLookup = {
+QUESTIE_LOCALES_OVERRIDE.objectLookup = {
 [31] = "стара статуя лева",
 [32] = "затонула скриня",
 [33] = "замкнена скриня",
