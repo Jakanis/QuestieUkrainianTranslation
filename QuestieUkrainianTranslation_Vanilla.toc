@@ -2,7 +2,7 @@
 ## Title: Questie translation - Ukrainian
 ## Notes: Ukrainian translation for Questie
 ## Author: Jakanis
-## Version: 0.6.2
+## Version: 0.6.3
 
 translations.lua
 Translations\Translations.xml
