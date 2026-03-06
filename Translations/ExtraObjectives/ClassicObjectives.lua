@@ -17,6 +17,7 @@ local classicObjectiveLocales = {
     ["Use the Ward of the Defiler to summon Razelikh."] = "Скористайтесь оберегом Губителя, щоб викликати Разеліха.", -- 3628
     ["Teleport to the top of the mountain."] = "Телепортуйтесь на вершину гори.", -- 3628
     ["Place the Bait in front of Miblon Snarltooth."] = "Покладіть приманку перед Міблоном Хрипозубом.", -- 3909
+    ["Hold off Kolkar invaders until Warlord Krom'zar spawns and then loot the banner spawned on his corpse."] = "Вбивайте колкарських загарбників, поки не з'явиться воєвода Кром'зар, а потім заберіть стяг з його трупа.",
     ["Use the Altered Black Dragonflight Molt on Bael'gar's corpse."] = "Скористайтесь зміненою шкірою чорного дракона на рештках Баєль'Ґара.", -- 4024
     ["Use the Gorishi Queen Lure."] = "Скористайтесь приманкою для королеви Ґоріші.", -- 4507
     ["Collect eggs using the Collectronic Module."] = "Зберіть яйця за допомогою яйцезбирального пристрою.", -- 4735
@@ -29,6 +30,7 @@ local classicObjectiveLocales = {
     ["Place the Crate of Ghost Magnets"] = "Розмістіть ящик примарних магнітів", -- 6134
     ["Use the Lovers' Hearts to summon an Incubus and slay it."] = "Скористайтесь серцями закоханих, щоб викликати інкуба та вбити його.", -- 65597
     ["Light the Unlit Torch near a fire and use the Burning Torch to set the Archaeologist's Cart on fire."] = "Скористайтесь незапаленим смолоскипом біля вогню і за допомогою палаючого смолоскипа підпаліть возик археолога.", -- 65602
+    ["Use the Wooden Figurine to summon an Incubus and slay it."] = "Скористайтесь дерев'яною статуеткою, щоб викликати інкуба та вбити його.", -- 65603
     ["Use the Withered Scarf to summon an Incubus and slay it."] = "Скористайтесь вицвілою хусткою, щоб викликати інкуба та вбити його.", -- 65603 & 65604
     ["Slay ghouls to free Darrowshire spirits"] = "Вбийте гулів, щоб звільнити духів Дарроушира", -- 5211
     ["Exorcise the spirits"] = "Викличте й вигоніть духів", -- 7640
@@ -50,6 +52,17 @@ local classicObjectiveLocales = {
     ["Use it to instantly kill one nearby ogre."] = "Скористайтесь списом, щоб миттєво вбити огра неподалік.", -- 4867
     ["Place a tribute at Uther's Tomb"] = "Покладіть підношення до могили Утера", -- 8149
     ["Place a tribute at Grom's Monument"] = "Покладіть підношення до пам'ятника Ґрому", -- 8150
+    ["Use the Draco-Incarcinatrix 900 and defeat the dragonkin."] = "Скористайтесь драко-в'язником 900 та вбийте драконеня.",
+    ["Silithyst"] = "Силітист",
+    ["Use the Empty Leaden Collection Phial."] = "Скористайтесь порожнім свинцевим фіалом для зразків.",
+    ["Use the Aspect of Neptulon."] = "Скористайтесь аспектом Нептулона.",
+    ["Use the Cenarion Moondust"] = "Скористайтесь кенарійським місячним пилом",
+    ["Use the Cenarion Lunardust"] = "Скористайтесь кенарійським місячним пилом",
+    ["Defeat Lunaclaw"] = "Здолайте Місяцекігтя",
+    ["Slay slimes until they leave behind a Rusty Chest"] = "Вбивайте гнилий слиз, поки після нього не залишиться іржава скриня",
+    ["Talk to Estelle Gendry"] = "Поговоріть з Естель Ґендрі",
+    ["Open the chest"] = "Відкрийте скриню",
+    ["Use the E.C.A.C. to weaken it"] = "Скористайтесь В.Х.М.К,  щоб послабити його"
 }
 
 for k, v in pairs(classicObjectiveLocales) do

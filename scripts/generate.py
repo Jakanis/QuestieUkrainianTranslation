@@ -14,6 +14,9 @@ def generate_items():
 
     with open('output\item.lua', 'w', encoding="utf-8") as lua_file:
         for key in sorted(questie_items & classicua_items.keys()):
+            if not classicua_items[key].get(0):
+                print("Warning! Item with ID " + str(key) + " has no name in ClassicUA, skipping.")
+                continue
             item_name = classicua_items[key][0][0].upper() + classicua_items[key][0][1:]
             item_name = item_name.replace('"', '\\"')
             item_str = f'[{key}] = "{item_name}",\n'
@@ -57,6 +60,22 @@ def read_classicua_quest_file(path) -> dict[int, tuple[str, str, str]]:
             quests[quest_id] = (quest_name, quest_description, quest_objective)
     return quests
 
+def read_classicua_quest_file_decode(path) -> dict[int, tuple[str, str, str]]:
+    quests = dict()
+    with open(path, 'r', encoding="utf-8") as lua_file:
+        lua_content = lua_file.read()
+        lua_table = lua_content[lua_content.find(' = {') + 2:]
+        classicua_quests = lua.decode(lua_table)
+        quest_parts = lua_content.split('\n},\n')
+        for quest in quest_parts:
+            quest_id = int(re.match(r'^\[(\d+)]', quest).group(1))
+            quest_rows = re.split(r'(?<===]|nil),\n', quest)
+            quest_name = re.match(r'\[===\[(.+)]===]', quest_rows[0].split('\n')[1]).group(1)
+            quest_description = re.match(r'\[===\[(.+)]===]', quest_rows[1], re.DOTALL).group(1) if quest_rows[1] != 'nil' else None
+            quest_objective = re.match(r'\[===\[(.+)]===]', quest_rows[2], re.DOTALL).group(1) if quest_rows[2] != 'nil' else None
+            quests[quest_id] = (quest_name, quest_description, quest_objective)
+    return quests
+
 
 def generate_quests():
     questie_quests = utils.get_questie_quests('Questie\Localization\lookups\Classic')
@@ -88,7 +107,7 @@ def generate_quests():
 
 
 if __name__ == '__main__':
-    generate_items()
-    generate_npcs()
+    # generate_items()
+    # generate_npcs()
     # generate_objects() # TODO: Needs DB with ID-Name relation
     generate_quests()

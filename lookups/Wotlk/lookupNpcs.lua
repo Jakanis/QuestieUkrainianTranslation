@@ -1,4 +1,4 @@
-QUESTIE_LOCALES_OVERRIDE.npcNameLookup = {
+QUESTIE_LOCALES_OVERRIDE.npcNameLookup = loadstring([[return {
     [3] = { "Пожирач плоті", nil },
     [6] = { "Кобольд-шкідник", nil },
     [30] = { "Лісовий павук", nil },
@@ -6710,4 +6710,4 @@ QUESTIE_LOCALES_OVERRIDE.npcNameLookup = {
     [17079] = { "Генерал Кіріка", nil },
     [17080] = { "Маршал Блакитномур", nil },
     [17804] = { "Сквайр Роу", nil },
-}
+}]])

@@ -1,4 +1,4 @@
-QUESTIE_LOCALES_OVERRIDE.itemLookup = {
+QUESTIE_LOCALES_OVERRIDE.objectLookup = loadstring([[return {
 [31] = "стара статуя лева",
 [32] = "затонула скриня",
 [33] = "замкнена скриня",
@@ -1149,4 +1149,4 @@ QUESTIE_LOCALES_OVERRIDE.itemLookup = {
 [181682] = "святиня зцілення",
 [181955] = "святиня зцілення",
 [182106] = "стяг вежі",
-}
+}]])

@@ -7,6 +7,7 @@ local keyboardShortcutLocales = {
     ["Ctrl + Right Click"] = "Ctrl + ПКМ",
     ["Ctrl + Left Click + Hold"] = "Утримуйте Ctrl + ЛКМ",
     ["Ctrl + Shift + Left Click"] = "Ctrl + Shift + ЛКМ",
+    ["Shift + Left Click"] = "Shift + ЛКМ",
     ["Shift"] = "Shift",
     ["Hold Shift"] = "Утримуйте Shift",
     ["Left Click + Hold"] = "Утримуйте ЛКМ",

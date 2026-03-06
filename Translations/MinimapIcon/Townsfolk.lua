@@ -24,6 +24,10 @@ local townsfolkLocales = {
     ["Vendor"] = "Продавець",
     ["Weapon Master"] = "Знавець зброї",
     ["Townsfolk"] = "Містяни",
+    ["Transmogrifier"] = "Трансмогрифікатор",
+    ["Arcane Reforger"] = "Арканічний коваль",
+    ["Barber"] = "Перукар",
+    ["Battle Pet Trainer"] = "Тренер бойових вихованців",
 }
 
 for k, v in pairs(townsfolkLocales) do

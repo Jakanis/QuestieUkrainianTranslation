@@ -9,7 +9,8 @@ local tooltipsUILocales = {
     ["You have completed this quest"] = "Ви виконали це завдання",
     ["Started by"] = "Починає",
     ["Ended by"] = "Завершує",
-    ["Completed on:"] = "Виконано:"
+    ["Completed on"] = "Виконано",
+    ["Questie Developer"] = "Розробник Questie",
 }
 
 for k, v in pairs(tooltipsUILocales) do

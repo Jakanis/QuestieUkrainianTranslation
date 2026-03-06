@@ -2,14 +2,16 @@ local raceLocales = {
     ["Human"] = "Людина",
     ["Orc"] = "Орк",
     ["Dwarf"] = "Дворф",
-    ["Nightelf"] = "Нічний ельф",
+    ["Night Elf"] = "Нічний ельф",
     ["Undead"] = "Невмерлий",
     ["Tauren"] = "Таурен",
     ["Gnome"] = "Гном",
     ["Troll"] = "Троль",
     ["Goblin"] = "Гоблін",
     ["Draenei"] = "Дреней",
-    ["Blood Elf"] = "Кривавий ельф",
+    ["Blood Elf"] = "Ельф крові",
+    ["Worgen"] = "Ворген",
+    ["Pandaren"] = "Пандарен",
 }
 
 for k, v in pairs(raceLocales) do

@@ -6,9 +6,6 @@ local genericsLocales = {
     ["Show Questie"] = "Показати Questie",
     ["Hide Questie"] = "Приховати Questie",
     ["Reload UI"] = "Перезавантажити",
-    ["Yes"] = "Так",
-    ["No"] = "Ні",
-    ["Cancel"] = "Відміна",
     ["Don't show again"] = "Більше не показувати",
     ["Auto"] = "Авто",
     ["Manual"] = "Вручну",
@@ -34,10 +31,18 @@ local genericsLocales = {
     ["Group"] = "Група", -- TODO: check
     ["Party"] = "Група", -- TODO: check
     ["Raid"] = "Рейд",
+    ["Account"] = "Акаунт",
     ["Vendors"] = "Продавці",
     ["Achievements"] = "Досягнення",
     ["Dismiss"] = "Закрити",
     ["Doable"] = "Доступність",
+    ["Challenge Mode"] = "Режим випробувань",
+    [": "] = true,
+    ["("] = true,
+    [")"] = true,
+    ["..."] = true,
+    ["ID"] = true,
+    ["|cFFa6a6a6Shift-click to hide|r"] = "|cFFa6a6a6Shift-клік щоб приховати|r",
 }
 
 for k, v in pairs(genericsLocales) do

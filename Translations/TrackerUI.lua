@@ -3,10 +3,8 @@ local trackerUILocales = {
     ---------------------------------------------------------
     -- Sizer
     ["Sizer Mode"] = "Режим зміни розміру",
-    ["Resize Tracker (Manual)"] = "Змінити розмір трекера (Вручну)",
-    ["Reset Sizer (Auto)"] = "Скинути зміну розміру (Авто)",
-    ["Resize while Locked"] = "Зміна розміру в заблокованому стані",
-    ["Reset while Locked"] = "Скидання в заблокованому стані",
+    ["Resize Tracker"] = "Змінити розмір трекера",
+    ["Reset Sizer"] = "Скинути зміну розміру",
     ["NOTE"] = "ПРИМІТКА",
     ["The Tracker Height Ratio\nis ignored while in Manual mode"] = "Співвідношення висоти трекера\nігнорується в ручному режимі",
     ---------------------------------------------------------
@@ -18,7 +16,7 @@ local trackerUILocales = {
     ["Questie Tracker Integrations"] = "Інтеграції трекера",
     -- VoiceOver Integration
     ["VoiceOver"] = true,
-    ["Hold shift to see PlayButtons"] = true,  -- TODO
+    ["Hold shift to see PlayButtons"] = "Затисніть Shift, щоб відобразити PlayButtons",
     -- TomTom Integration
     ["TomTom"] = true,
     ["Ctrl + Left Click or Right Click a Quest Title"] = "Ctrl + ЛКМ або ПКМ на назві завдання",
@@ -46,9 +44,17 @@ local trackerUILocales = {
     ["Unlock Tracker"] = "Розблокувати трекер",
     ---------------------------------------------------------
     -- Misc Translations
-    ["Quest Complete"] = "Завдання виконано",
-    ["Quest Failed"] = "Завдання провалено",
+    ["Quest Complete!"] = "Завдання виконано!",
+    ["Quest Failed!"] = "Завдання провалено!",
     ["Can't open Quest Log while in combat. Open it manually."] = "Неможливо відкрити журнал завдань під час бою. Відкрийте його вручну.",
+    ["Maximize Quest"] = "Розгорнути завдання",
+    ["Quests (By %% Complete)"] = "Завдання (За %% виконання)",
+    ["Quests (By %% Complete Reversed)"] = "Завдання (За %% в звор. порядку)",
+    ["Quests (By Level)"] = "Завдання (За рівнем)",
+    ["Quests (By Level Reversed)"] = "Завдання (За рівнем в звор. порядку)",
+    ["Quests (By Proximity)"] = "Завдання (За відстанню)",
+    ["Quests (By Proximity Reversed)"] = "Завдання (За відстанню в звор. порядку)",
+    ["Blizzard Timer Active!"] = "Таймер Blizzard активний!",
 }
 
 for k, v in pairs(trackerUILocales) do

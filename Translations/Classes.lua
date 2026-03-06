@@ -9,6 +9,7 @@ local classLocales = {
     ["Hunter"] = "Мисливець",
     ["Warlock"] = "Чорнокнижник",
     ["Death Knight"] = "Лицар смерті",
+    ["Monk"] = "Монах",
 }
 
 for k, v in pairs(classLocales) do

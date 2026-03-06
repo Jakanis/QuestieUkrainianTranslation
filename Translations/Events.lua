@@ -13,6 +13,17 @@ local eventsLocales = {
     ["Ahn'Qiraj War"] = "Війна в Ан'Кіражі",
     ["Seasonal"] = "Сезонні",
     ["Invasion"] = "Вторгнення",
+    ["Firelands Invasion"] = "Вторгнення до Вогнезем’я",
+    ["The Zandalari"] = "Зандалари",
+    ["Elemental Bonds"] = "Пута стихій",
+    ["Pet Battle"] = "Бої вихованців",
+    ["Proving Grounds"] = "Арена випробувань",
+    ["Nightmare Incursions"] = "Вторгнення Кошмару",
+    ["Blackrock Eruption"] = "Виверження Чорноскельної гори",
+    ["Day of the Dead"] = "День мерців",
+    ["Darkmoon Island"] = "Острів Темного Місяця",
+    ["Riding"] = "Верхова їзда",
+    ["Brawler's Guild"] = "Бійцівська гільдія"
 }
 
 for k, v in pairs(eventsLocales) do

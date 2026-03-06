@@ -7,14 +7,22 @@ local debugMessagesLocales = {
     ["Flex the amount of quests you have completed so far"] = "Похизуватися кількістю виконаних вами завдань",
     ["has completed a total of %d quests"] = "має %d виконаних завдань",
     ["Toggles the Minimap Button for Questie"] = "Показати/приховати кнопку біля мінімапи",
-    ["Adds manual notes to the map for a given NPC ID or name. If the name is ambiguous multipe notes might be added. Without a second command the target will be added to the map. The 'reset' command removes all notes"] =
-        "Додає ручні примітки на мапу для заданого ID або імені NPC. Якщо ім'я неоднозначне, може бути додано кілька приміток. Без другої команди ціль буде додано на мапу. Команда 'reset' видаляє всі примітки",
-    ["Invalid command. For a list of options please type: "] = "Неправильна команда. Для отримання списку команд введіть: ",
+    ["Try to add markers for NPCs or objects to the map by search. If the \"tomap\" command is entered without subcommand it will attempt to mark the currently selected target. Searches by ID return exact matches, searches by name return partial matches. The \"reset\" subcommand does not accept additional parameters and just removes all markers."] =
+        "Спробувати додати на мапу мітки для NPC або об'єктів за допомогою пошуку. Якщо \"tomap\" вводиться без підкоманди, на мапу буде додано мітки для поточної цілі. Пошук за ID повертає точні збіги, пошук за назвою повертає часткові збіги. Підкоманда \"reset\" не приймає додаткових параметрів та видаляє всі мітки",
+    ["Invalid command. For a list of options please type:"] = "Неправильна команда. Для отримання списку команд введіть:",
+    ["An active target or search parameters are required."] = "Необхідна ціль або пошуковий запит.",
+    ["All map markers cleared."] = "Всі мітки на мапі видалено",
+    ["Search term required."] = "Необхідно ввести пошуковий запит.",
+    ["Exact match found, added %s to map."] = "Знайдено точний збіг, на мапу додано - %s.",
+    ["No exact matches, %d partial matches found and added to map."] = "Точних збігів не знайдено, знайдено та додано до на мапу часткових збігів - %d.",
+    ["%d matches found and added to map."] = "Знайдено та додано на мапу збігів - %d.",
+    ["No match found, nothing added to map."] = "Збігів не знайдено, на мапу нічого не додано.",
+    ["Please wait a moment for Questie to finish loading"] = "Будь ласка, зачекайте, поки Questie завершить завантаження",
     ["There was a problem initializing Questie's database. This can usually be fixed by recompiling the database."] = "Виникла проблема при ініціалізації бази даних Questie. Зазвичай це можна виправити перекомпіляцією бази даних.",
     ["There was an error populating objectives for %s %s %s %s"] = "Помилка отримання цілей для %s %s %s %s",
-    ["Error: Questie tracker in invalid location, resetting..."] = "Помилка: Трекер Questie в неправильному положенні, скидання...",
+    ["Questie tracker in invalid location, resetting..."] = "Трекер Questie в неправильному положенні, скидання...",
     ["Setting icon limit value to %s : Redrawing!"] = "Обмеження кількості значків до %s : Перемальовування!",
-    ["Questie DB has updated!"] = "БД Questie оновлена!",
+    ["Questie DB is updating — "] = "БД Questie оновлюється — ",
     ["Data is being processed, this may take a few moments and cause some lag..."] = "Дані обробляються, це може зайняти кілька хвилин і спричинити зависання...",
     ["Updating NPCs"] = "Оновлення NPC",
     ["Updating objects"] = "Оновлення об'єктів",
@@ -36,8 +44,6 @@ local debugMessagesLocales = {
     ["Coordinates addon is enabled and will cause buggy behavior. Disabling global map and mini map coordinates. These can be re-enabled in settings"] =
         "Увімкнено інший аддон з координатами, що може призвести до помилок. Щоб уникнути цього, Questie вимикає координати на мапі світу та мінімапі. Їх можна знову увімкнути у налаштуваннях",
     ["Missing objective data for quest "] = "Відсутня інформація про ціль завдання ",
-    ["|cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install."] =
-        "|cffff0000Please note:|r Один з наступних релізів Questie скине ваші налаштування. Ми радимо вам зробити резервну копію збережених налаштувань Questie, створивши копію теки WTF в теці інсталяції WoW.",
     ["Prints whether you are eligibile to do a quest"] = "Вивести інформацію про те, чи можете ви виконати завдання",
     ["Prints Questie and client version info"] = "Вивести інформацію про версію Questie та клієнта гри",
     -- Debug Offers
@@ -50,7 +56,6 @@ local debugMessagesLocales = {
     ["A quest you just encountered is missing from the Questie database."] = "Завдання, яке вам щойно трапилося, відсутнє в базі даних Questie.",
     ["A quest in your quest log is missing from the Questie database and can't be tracked."] = "Одне з завдань у вашому журналі відсутнє в базі даних Questie і не може бути відстежене.",
     ["The NPC you just targeted is missing from the Questie database."] = "NPC, який вам щойно трапився, відсутній в базі даних Questie.",
-    -- End Debug Offers
 }
 
 for k, v in pairs(debugMessagesLocales) do

@@ -1,4 +1,4 @@
-QUESTIE_LOCALES_OVERRIDE.itemLookup = {
+QUESTIE_LOCALES_OVERRIDE.itemLookup = loadstring([[return {
     [159] = "Освіжаюча джерельна вода",
     [182] = "Голова Ґарріка",
     [723] = "Печінка іклоштрика",
@@ -1666,4 +1666,4 @@ QUESTIE_LOCALES_OVERRIDE.itemLookup = {
     [22734] = "Основа Атієша",
     [22892] = "Тьмяний некротичний камінь",
     [23250] = "Призматична мушля",
-}
+}]])
